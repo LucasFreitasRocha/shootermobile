@@ -7,10 +7,12 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
    private Rigidbody rb;
    private Vector3 movement;
+   private Animator animator;
    public float speed = 6;
 
    private void Awake() {
        rb = GetComponent<Rigidbody>();
+       animator =GetComponent<Animator>();
    }
 
     // Update is called once per frame
@@ -19,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
         float v = Input.GetAxisRaw("Vertical");
         Move(h,v);
         Turning(h,v);
+        Animating(h,v);
     }
 
     void Move (float h, float v){
@@ -32,5 +35,10 @@ public class PlayerMovement : MonoBehaviour
         if(rot != Vector3.zero){
             transform.rotation = Quaternion.LookRotation(rot);
         }
+    }
+    void Animating(float h, float v){
+        bool walking = h != 0 || v  != 0;
+        animator.SetBool("Walking", walking );
+
     }
 }
