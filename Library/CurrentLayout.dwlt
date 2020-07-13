@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 828, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 3341
+  controlID: 1400
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 965
     height: 941
-  m_MinSize: {x: 202, y: 424}
-  m_MaxSize: {x: 4002, y: 8024}
+  m_MinSize: {x: 202, y: 448}
+  m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 3309
+  controlID: 1401
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 3490
+  controlID: 1434
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_MinSize: {x: 392, y: 488}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 3342
+  controlID: 1272
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -411,7 +411,7 @@ MonoBehaviour:
       width: 963
       height: 528
     m_Scale: {x: 1.1255087, y: 1.1255087}
-    m_Translation: {x: 481.5, y: 264}
+    m_Translation: {x: 481.5, y: 297.13428}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -427.80658
-      y: -234.56061
+      y: -264
       width: 855.61316
       height: 469.12122
     m_MinimalGUI: 1
@@ -620,7 +620,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 11510
+  m_LastSelectedObjectID: 11700
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -650,9 +650,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: a8300000
       m_LastClickedID: 0
-      m_ExpandedIDs: 78f5ffffdefbffff
+      m_ExpandedIDs: defbffffb42d0000ce2d0000e42d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -713,20 +713,19 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Animations
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /home/rocha/Dev/Shooter Mobile
+  m_LastProjectPath: /home/rocha/Dev/shootermobile
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b2260000
     m_LastClickedID: 9906
-    m_ExpandedIDs: ffffffff00000000c6260000f8280000022900006429000098290000a8290000782a00004c2c0000bc2c0000ea2c0000
+    m_ExpandedIDs: ffffffff00000000ca2600006e290000a2290000b2290000822a0000562c0000f42c0000a2300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,10 +750,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 14}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000c6260000f8280000022900006429000098290000a8290000782a00004c2c0000bc2c0000ea2c0000
+    m_ExpandedIDs: ffffffff00000000ca2600006e290000a2290000b2290000822a0000562c0000f42c0000a2300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
